@@ -15,6 +15,12 @@ nav {
   background-color: #131a6d !important;
 }
 
+/* Visit Mauritius  */
 .brand-logo {
   font-family: 'Marck Script', cursive;
+}
+
+/* Image slider homepage size */
+.slides {
+  height: 92vh !important;
 }

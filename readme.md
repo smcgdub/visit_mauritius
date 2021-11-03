@@ -186,6 +186,21 @@ You can also clone the project using Github Desktop. To do this you can do the f
 
 ### **6.1 Media** 
 
+* https://www.pexels.com/photo/green-island-in-the-middle-of-ocean-7744992/
+Photo by Dominik Ruhl from Pexels
+
+* https://www.pexels.com/photo/jetty-light-sea-city-9482120/
+* Photo by Asad Photo Maldives from Pexels
+
+* https://www.pexels.com/photo/sea-dawn-landscape-nature-9394309/
+* Photo by Asad Photo Maldives from Pexels
+
+* https://www.pexels.com/photo/aerial-photo-of-island-3703465/
+* Photo by Michal Marek from Pexels
+
+* https://www.pexels.com/photo/a-picturesque-landscape-and-cliff-coast-of-mauritius-7425964/
+* Photo by Dominik Ruhl from Pexels
+
 <hr>
 
 ### **6.2 Code** 
