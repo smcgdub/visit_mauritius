@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Materialize CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/debc4afe80.js" crossorigin="anonymous"></script>
   <!-- My CSS -->
@@ -15,9 +16,40 @@
 </head>
 
 <body>
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Visit Mauritius</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Mobile Nav -->
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#locations">Locations</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
 
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- Materialize JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- My JS file -->
+  <script src="/assets/javascript/file.js"></script>
 </body>
 
 </html>

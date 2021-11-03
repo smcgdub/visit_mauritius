@@ -1,9 +1,20 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
 
+/* Visit Mauritius Font */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
 /* Global */
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Arapey', serif;
+}
+
+nav {
+  background-color: #131a6d !important;
+}
+
+.brand-logo {
+  font-family: 'Marck Script', cursive;
 }
