@@ -6,6 +6,6 @@ $(document).ready(function(){
     interval: 4000,
     transition: 500,
     indicators: false,
-    height: 500,
+    height: 600,
   });
 });

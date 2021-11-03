@@ -43,3 +43,32 @@ nav {
   background-color: #00a650;
   color: #ffffff;
 }
+
+/* We arrange cards */
+.icon {
+  background-color: #131a6d;
+}
+
+.h4_row,
+h4 {
+  /* margin-bottom: 0px;
+  margin-top: 0px !important; */
+  margin: 0px !important;
+}
+
+.h4 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.card_1 {
+  background-color: #eb2436 !important;
+}
+
+.card_2 {
+  background-color: #ffd600 !important;
+}
+
+.card_3 {
+  background-color: #00a650 !important;
+}
