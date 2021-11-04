@@ -201,6 +201,9 @@ Photo by Dominik Ruhl from Pexels
 * https://www.pexels.com/photo/a-picturesque-landscape-and-cliff-coast-of-mauritius-7425964/
 * Photo by Dominik Ruhl from Pexels
 
+* https://unsplash.com/photos/nOhiRJ-qmjs
+* Photo by <a href="https://unsplash.com/@teodorpk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Teodor Kuduschiev</a> on <a href="https://unsplash.com/s/photos/flic-en-flac-beach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 <hr>
 
 ### **6.2 Code** 

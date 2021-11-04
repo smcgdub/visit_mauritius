@@ -1,3 +1,8 @@
+// AUTOMATICALLY INIT ALL JS WITH FUNCTION BELOW
+document.addEventListener('DOMContentLoaded', function () {
+  M.AutoInit();
+});
+
 $(document).ready(function(){
   // Side Navbar
   $('.sidenav').sidenav();

@@ -29,8 +29,6 @@ nav {
   padding-top: 10px;
 }
 
-.newsletter_input {}
-
 .news_letter_btn {
   min-width: 100%;
   background-color: #ffd600;
@@ -71,4 +69,13 @@ h4 {
 
 .card_3 {
   background-color: #00a650 !important;
+}
+
+/* .locations_section {
+  background-color: #00a650 !important;
+} */
+
+/* Popular locations card image */
+.card_img {
+  height: 160px !important;
 }
