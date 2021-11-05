@@ -14,3 +14,10 @@ $(document).ready(function(){
     height: 600,
   });
 });
+
+// About Mauritius Toggle
+$(document).ready(function() {
+  $(".button").click(function() {
+      $("p").slideToggle("slow");
+  });
+});

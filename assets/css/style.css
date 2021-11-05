@@ -25,6 +25,28 @@ nav {
   /* height: 91.6vh !important; */
 }
 
+/* About Mauritius */
+.about_mauritius_section {
+  background-color: #131a6d;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.about_mauritius_p {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.about_mauritius_btn {
+  background-color: #ffd600;
+  color: #000000 !important;
+}
+
+.about_mauritius_btn:hover {
+  background-color: #00a650;
+  color: #ffffff;
+}
+
 /* Newsletter section */
 .newsletter_div {
   margin-bottom: 0px;
@@ -33,6 +55,7 @@ nav {
 
 .newsletter_p {
   padding-top: 10px;
+  margin-top: 0px;
 }
 
 .news_letter_btn {
@@ -95,7 +118,8 @@ nav {
 }
 
 .photo_gallery_h5 {
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .materialboxed {
