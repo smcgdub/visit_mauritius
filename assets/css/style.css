@@ -25,6 +25,12 @@ nav {
   /* height: 91.6vh !important; */
 }
 
+/* Newsletter section */
+.newsletter_div {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 .newsletter_p {
   padding-top: 10px;
 }
@@ -33,7 +39,6 @@ nav {
   min-width: 100%;
   background-color: #ffd600;
   color: #000000;
-  margin-top: 10px !important;
 }
 
 .news_letter_btn:hover {
@@ -47,16 +52,19 @@ nav {
   background-color: #131a6d;
 }
 
-.h4_row,
-h4 {
+.h4_row {
   /* margin-bottom: 0px;
   margin-top: 0px !important; */
   margin: 0px !important;
 }
 
+.we_arrange_your_h4 {
+  padding-top: 15px !important;
+}
+
 .h4 {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  /* padding-top: 10px !important; */
+  /* padding-bottom: 10px !important; */
 }
 
 .card_1 {
@@ -81,6 +89,15 @@ h4 {
 }
 
 /* Gallery */
+.gallery {
+  background-color: #131a6d;
+  padding-bottom: 10px;
+}
+
+.photo_gallery_h5 {
+  padding-top: 10px;
+}
+
 .materialboxed {
   padding-bottom: 10px;
   margin-bottom: 0px;
@@ -95,6 +112,46 @@ h4 {
   padding-left: 5px;
 }
 
+/* Contact Us Form */
+.contact_us_h5 {
+  margin-bottom: 0px !important;
+}
+
 .contact_form_input {
   margin-bottom: 0px !important;
+}
+
+#your_name,
+#your_email,
+#your_phone_number,
+#your_message {
+  /* border: 1px solid #131a6d; */
+  padding-left: 5px;
+}
+
+#your_name,
+#your_email,
+#your_phone_number {
+  /* margin-bottom: 10px !important; */
+}
+
+.send_message_btn {
+  min-width: 100%;
+  background-color: #ffd600;
+  color: #000000;
+  margin-top: 10px !important;
+}
+
+.send_message_btn:hover {
+  min-width: 100%;
+  background-color: #00a650;
+  color: #ffffff;
+}
+
+.hr_container {
+  max-width: 50%;
+}
+
+.footer_section {
+  background-color: #131a6d;
 }

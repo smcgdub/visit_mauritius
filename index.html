@@ -83,30 +83,33 @@
   </div>
 
   <!-- Newsletter -->
-  <!-- <section>
+  <section class="newsletter_section">
     <div class="container">
       <div class="row">
         <div class="col s12">
           <h5 class="newsletter_p center">
             Sign up to our Newsletter
           </h5>
-          <input class="newsletter_input" type="email" placeholder="Your email" validate> -->
-  <!-- Submit button -->
-  <!-- <button class="news_letter_btn btn waves-effect waves-light" type="submit" name="action">Sign Me Up
+          <div class="input-field newsletter_div">
+            <input class="newsletter_input validate" type="email" placeholder="Your email">
+            <span class="helper-text" data-error="Invalid email" data-success="Email valid"></span>
+          </div>
+          <!-- Submit button -->
+          <button class="news_letter_btn btn waves-effect waves-light" type="submit" name="action">Sign Me Up
             <i class="material-icons right">send</i>
           </button>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- We arrange your section -->
   <section class="icon">
     <div class="container">
       <div class="row h4_row">
-        <h4 class="center h4 white-text">
+        <h5 class="center h4 white-text we_arrange_your_h4">
           We arrange your
-        </h4>
+        </h5>
       </div>
       <div class="row">
         <div class="col s12 m4">
@@ -123,7 +126,6 @@
         </div>
         <div class="col s12 m4">
           <div class="card_3 card-panel center">
-            <!-- <i class="fas fa-home"></i> -->
             <i class="material-icons large white-text">home</i>
             <h6 class="center white-text">Accommodation</h6>
           </div>
@@ -183,10 +185,15 @@
     </div>
   </section>
 
+  <!-- Horizontal row divider -->
+  <div class="container hr_container">
+    <hr>
+  </div>
+
   <!-- Gallery -->
   <section class="gallery">
     <div class="container">
-      <h5 class="center">Photo Gallery</h5>
+      <h5 class="center photo_gallery_h5 white-text">Photo Gallery</h5>
       <div class="row">
         <div class="col s12 m3">
           <img class="materialboxed responsive-img" src="https://source.unsplash.com/1600x900/?beach" alt="">
@@ -235,32 +242,59 @@
     </div>
   </section>
 
+  <!-- Horizontal row divider -->
+  <div class="container hr_container">
+    <hr>
+  </div>
+
   <!-- Contact Us -->
   <section>
     <div class="container">
-      <h5 class="center">Contact Us</h5>
+      <h5 class="center contact_us_h5">Contact Us</h5>
       <div class="row">
         <div class="col s12">
-          <input id="your_name" class="contact_form_input" type="text" validate>
-          <label for="your_name">Your Name</label>
-          <input id="your_email" class="contact_form_input" type="email" validate>
-          <label for="your_email">Your E-mail</label>
-          <input id="your_phone_number" class="contact_form_input" type="number" validate>
-          <label for="your_phone_number">Your phone number</label>
-          <textarea class="materialize-textarea contact_form_input" name="" id="your_message" cols="30"
-            rows="10"></textarea>
-          <label for="your_message">Your message</label>
+          <!-- Name input -->
+          <div class="input-field">
+            <input id="your_name" class="contact_form_input validate" type="text" minlength="5" maxlength="40">
+            <label id="your_name_label" for="your_name">Your Name</label>
+            <span class="helper-text" data-error="Min 5 characters" data-success="Valid"></span>
+          </div>
+          <!-- Email input -->
+          <div class="input-field">
+            <input id="your_email" class="contact_form_input validate" type="email">
+            <label for="your_email">Your e-mail</label>
+            <span class="helper-text" data-error="Invalid email" data-success="Valid"></span>
+          </div>
+          <!-- Phone input -->
+          <div class="input-field">
+            <input id="your_phone_number" class="contact_form_input validate" type="number" maxlength="40">
+            <label for="your_phone_number">Your phone number</label>
+            <span class="helper-text" data-error="Invalid number" data-success="Valid"></span>
+          </div>
+          <!-- Message Input -->
+          <div class="input-field">
+            <textarea class="materialize-textarea contact_form_input validate" name="" id="your_message" cols="30"
+              rows="10" minlength="10" maxlength="500"></textarea>
+            <label for="your_message">Your message</label>
+            <span class="helper-text" data-error="Invalid minimum 10 characters" data-success="Valid"></span>
+          </div>
+          <!-- Submit button -->
+          <button class="btn waves-effect waves-light send_message_btn" type="submit" name="action">Send Message
+            <i class="material-icons right">send</i>
+          </button>
         </div>
       </div>
     </div>
   </section>
 
+  <section class="footer_section">
+
+  </section>
   <!-- Footer -->
-  <section class="footer">
+  <!-- <section class="footer">
     <div class="container">
       <div class="row">
         <div class="col s12 m6">
-          <!-- <p class="white-text">Follow Us</p> -->
           <a href="https://www.facebook.com/" target="_blank" class="social_icon"><i
               class="fab fa-facebook-square white-text"></i></a>
           <a href="https://twitter.com/" target="_blank" class="social_icon"><i
@@ -271,7 +305,6 @@
               class="fab fa-linkedin white-text"></i></a>
         </div>
         <div class="col s12 m6">
-          <!-- <p class="right">Visit Mauritius</p> -->
           <p class="right white-text">1st Floor, 22 Lower Leeson Street, Dublin, D02 EK40</p>
           <p class="right white-text">Email: <a class="white-text"
               href="mailto:info@visitmauritius.ie">info@visitmauritius.ie</a> |
@@ -280,7 +313,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
