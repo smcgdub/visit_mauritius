@@ -11,18 +11,31 @@
   font-family: 'Arapey', serif;
 }
 
+.background_image {
+  background-image: url(/assets/images/mauritius_1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar */
 nav {
   background-color: #131a6d !important;
 }
 
+/* .arrival_field {
+  background-color: #ffffff;
+  border: 1px solid #131a6d;
+}
+
+.departure_field {
+  background-color: #ffffff;
+  border: 1px solid #131a6d;
+} */
+
 /* Visit Mauritius  */
 .brand-logo {
   font-family: 'Marck Script', cursive;
-}
-
-/* Image slider homepage size */
-.slides {
-  /* height: 91.6vh !important; */
 }
 
 /* About Mauritius */
@@ -76,18 +89,11 @@ nav {
 }
 
 .h4_row {
-  /* margin-bottom: 0px;
-  margin-top: 0px !important; */
   margin: 0px !important;
 }
 
 .we_arrange_your_h4 {
   padding-top: 15px !important;
-}
-
-.h4 {
-  /* padding-top: 10px !important; */
-  /* padding-bottom: 10px !important; */
 }
 
 .card_1 {
@@ -101,10 +107,6 @@ nav {
 .card_3 {
   background-color: #00a650 !important;
 }
-
-/* .locations_section {
-  background-color: #00a650 !important;
-} */
 
 /* Popular locations card image */
 .card_img {
@@ -127,15 +129,6 @@ nav {
   margin-bottom: 0px;
 }
 
-.footer {
-  background-color: #131a6d !important;
-}
-
-.social_icon {
-  font-size: 3rem;
-  padding-left: 5px;
-}
-
 /* Contact Us Form */
 .contact_us_h5 {
   margin-bottom: 0px !important;
@@ -149,14 +142,7 @@ nav {
 #your_email,
 #your_phone_number,
 #your_message {
-  /* border: 1px solid #131a6d; */
   padding-left: 5px;
-}
-
-#your_name,
-#your_email,
-#your_phone_number {
-  /* margin-bottom: 10px !important; */
 }
 
 .send_message_btn {
@@ -176,6 +162,29 @@ nav {
   max-width: 50%;
 }
 
+/* Footer Section  */
 .footer_section {
   background-color: #131a6d;
+}
+
+.follow_us_h5 {
+  padding-top: 15px !important;
+}
+
+.fa-facebook-square {
+  color: #00a650;
+  font-size: 50px;
+  padding-right: 5px;
+}
+
+.fa-twitter-square {
+  color: #eb2436;
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding-right: 5px;
+}
+
+.fa-instagram-square {
+  color: #ffd600;
+  font-size: 50px;
 }

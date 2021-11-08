@@ -21,3 +21,16 @@ $(document).ready(function() {
       $("p").slideToggle("slow");
   });
 });
+
+$(document).ready(function(){
+  $('.datepicker').datepicker({
+    // autoClose: true,
+    format: 'dddd mmmm yyyy',
+    firstDay: 1,
+    showDaysInNextAndPreviousMonths: true,
+    showClearBtn: true,
+  })
+})
+
+
+
