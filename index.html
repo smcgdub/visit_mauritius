@@ -15,32 +15,33 @@
   <title>Visit Mauritius</title>
 </head>
 
-<body>
+<body id="home">
   <!-- Navbar -->
-  <nav>
-    <div class="container">
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Visit Mauritius</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#locations">Locations</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
+  <div class="navbar-fixed">
+    <nav class="">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">Visit Mauritius</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact_us">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <!-- Mobile Nav -->
   <ul class="sidenav" id="mobile-demo">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#locations">Locations</a></li>
     <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#contact">Contact Us</a></li>
+    <li><a href="#contact_us">Contact Us</a></li>
   </ul>
-
   <!-- Image Slider Section -->
   <div class="slider">
     <ul class="slides">
@@ -81,9 +82,8 @@
       </li>
     </ul>
   </div>
-
   <!-- About Mauritius Section -->
-  <section class="about_mauritius_section">
+  <section id="about" class="about_mauritius_section scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12 center">
@@ -111,7 +111,6 @@
       </div>
     </div>
   </section>
-
   <!-- Newsletter -->
   <section class="newsletter_section">
     <div class="container">
@@ -132,7 +131,6 @@
       </div>
     </div>
   </section>
-
   <!-- We arrange your section -->
   <section class="icon">
     <div class="container">
@@ -163,9 +161,8 @@
       </div>
     </div>
   </section>
-
-  <!-- Locations -->
-  <section class="locations_section">
+  <!-- Popular Locations -->
+  <section id="locations" class="locations_section scrollspy">
     <div class="container">
       <div class="row">
         <h5 class="center">Popular locations</h5>
@@ -214,14 +211,13 @@
       </div>
     </div>
   </section>
-
   <!-- Horizontal row divider -->
   <!-- <div class="container hr_container">
     <hr>
   </div> -->
 
   <!-- Gallery -->
-  <section class="gallery">
+  <section id="gallery" class="gallery scrollspy">
     <div class="container">
       <h5 class="center photo_gallery_h5 white-text">Photo Gallery</h5>
       <div class="row">
@@ -278,22 +274,22 @@
   </div> -->
 
   <!-- Contact Us -->
-  <section>
+  <section id="contact_us" class="scrollspy">
     <div class="container">
       <h5 class="center contact_us_h5">Contact Us</h5>
       <div class="row">
         <div class="col s12">
           <!-- Name input -->
           <div class="input-field">
-            <input id="your_name" class="contact_form_input validate" type="text" minlength="5" maxlength="40">
+            <input id="your_name" class="contact_form_input validate" type="text" minlength="5" maxlength="40" required>
             <label id="your_name_label" for="your_name">Your Name</label>
-            <span class="helper-text" data-error="Min 5 characters" data-success="Valid"></span>
+            <span class="helper-text" data-error="Min 5 characters" data-success="Valid">*required</span>
           </div>
           <!-- Email input -->
           <div class="input-field">
             <input id="your_email" class="contact_form_input validate" type="email">
             <label for="your_email">Your e-mail</label>
-            <span class="helper-text" data-error="Invalid email" data-success="Valid"></span>
+            <span class="helper-text" data-error="Invalid email" data-success="Valid">*required</span>
           </div>
           <!-- Phone input -->
           <div class="input-field">
@@ -306,7 +302,7 @@
             <textarea class="materialize-textarea contact_form_input validate" name="" id="your_message" cols="30"
               rows="10" minlength="10" maxlength="500"></textarea>
             <label for="your_message">Your message</label>
-            <span class="helper-text" data-error="Invalid minimum 10 characters" data-success="Valid"></span>
+            <span class="helper-text" data-error="Invalid minimum 10 characters" data-success="Valid">*required</span>
           </div>
           <!-- Submit button -->
           <button class="btn waves-effect waves-light send_message_btn" type="submit" name="action">Send Message
@@ -319,7 +315,7 @@
 
   <section class="footer_section">
     <div class="container">
-
+      <input type="text">
     </div>
   </section>
 
