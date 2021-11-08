@@ -188,3 +188,18 @@ nav {
   color: #ffd600;
   font-size: 50px;
 }
+
+.slider {
+  min-height: 100vh !important;
+}
+
+.imgs {
+  min-height: 100vh !important;
+}
+
+/* Media Queries */
+@media (max-width: 380px) {
+  .brand-logo {
+    font-size: 24px !important;
+  }
+}
